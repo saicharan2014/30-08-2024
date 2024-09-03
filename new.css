@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(https://www.infermentum.it/_upload/_big/1713362277.3845_Il_Biscotto-Sbrisolotto_Taglio-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+height: 100%;
+width: 100%;
+
+background-attachment: fixed;
+}
+
+.bg_clr_parent {
+  display: flex;
+position: absolute;
+top: 0;
+  flex: 1 1 auto;
+height: 100%;
+  z-index: 1;
+
+
+}
+
+
+.bg_clr_1 {
+  width: 50%;
+
+  background-color: #fe675d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  padding-top: 8rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+}
+#big_img {
+  height:100%;
+  padding: 1rem;
+}
+.bg_clr_1 img {
+  height: 10%;
+}
+.bg_clr_1 img:nth-child(2) {
+  position: absolute;
+  bottom: 80%;
+}
+.bg_clr_1 img:nth-child(3) {
+  position: absolute;
+ right: 94%;
+}
+.bg_clr_1 img:nth-child(4) {
+  position: absolute;
+  top: 85%;
+  right: 90%;
+}
+.bg_clr_1 img:nth-child(5) {
+  position: absolute;
+  top: 85%;
+  left: 35%;
+}
+.bg_clr_1 img:nth-child(6) {
+  position: absolute;
+
+  right: 56%;
+}
+
+.bg_clr_2 {
+  width: 50%;
+
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 6rem;
+  padding-left: 3rem;
+
+  
+}
+
+.bg_clr_2_cnt {
+  display: flex;
+  flex-direction: column;
+padding: 1rem;
+  gap: 20px;
+  flex: 0 1 auto;
+}
+.bg_clr_2_cnt h1 {
+  font-size: 3.5rem;
+}
+#para1 {
+  font-size: 1.2rem;
+}
+.bg_clr_2_cnt span:nth-child(1) {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.price_btn button {
+  margin-left: 1rem;
+  border-radius: 50px;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+}
+.price span {
+  margin-top: 1rem;
+}
+.price h3 {
+  margin-bottom: 1rem;
+}
+.quantity h3 {
+  margin-bottom: 1rem;
+}
+.quantity {
+  text-align: center;
+}
+nav {
+  position: fixed;
+  top: 0;
+  height: 10%;
+  background-color: white;
+  /* opacity: 0; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+
+  z-index: 2;
+  flex: 0 1 auto;
+  background-color: transparent;
+}
+
+.nav_right {
+  display: flex;
+  align-items: center;
+  flex: 0 1 auto;
+  font-size: 1.3em;
+}
+.nav_right a {
+  color: black;
+}
+
+#logo_img {
+  height: 40px;
+  width: 150px;
+}
+label {
+  padding: 0.5rem;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex: 1 1 auto;
+}
+.cart img {
+  height: 200px;
+  width: 200px;
+}
+.nav_margin {
+  margin-left: 1rem;
+  opacity: 1;
+}
+.nav_img {
+  height: 30px;
+  width: 30px;
+}
+#nav_img_left {
+  height: 50px;
+  width: 200px;
+  opacity: 1;
+  margin: 1rem;
+}
+/* footer */
+footer{
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+top: 347%;
+
+background-color: black;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.footer_google_img> img{
+width: 200px;
+height: 100px;
+  }
+   .footer_img{
+   
+    height: 50px;
+    width: 200px;
+    opacity: 1;
+    margin: 1rem;
+  }
+  .footer_info a{
+    text-decoration: none;
+
+    list-style-type: none;
+    }
+  .footer_info li{
+    margin: 1rem;
+    list-style-type: none;
+    }
+  .footer_info_right b{
+    margin: 1rem;
+    
+  }
